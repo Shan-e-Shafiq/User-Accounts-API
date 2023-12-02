@@ -5,7 +5,7 @@ CREATE TABLE Users(
     Name VARCHAR(200),
     CNIC_no BIGINT,
     Phone_no BIGINT,
-	Age INT,
+    Age INT,
     Address VARCHAR(200),
     City VARCHAR(200),
     Country VARCHAR(200),
