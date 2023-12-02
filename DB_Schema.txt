@@ -1,0 +1,13 @@
+CREATE TABLE Users(
+	ID INT AUTO_INCREMENT,
+    Username VARCHAR(200),
+    Password VARCHAR(200),
+    Name VARCHAR(200),
+    CNIC_no BIGINT,
+    Phone_no BIGINT,
+	Age INT,
+    Address VARCHAR(200),
+    City VARCHAR(200),
+    Country VARCHAR(200),
+    PRIMARY KEY(ID,Username,CNIC_no)
+);
